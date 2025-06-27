@@ -97,6 +97,13 @@ main {
   font-size: 1.1rem;
   margin: 0 auto;
 }
+
+mark {
+  background-color: transparent;
+  color: #61dafb; /* Accent color from the clock animation */
+  font-weight: 500;
+}
+
 footer {
   text-align: center;
   padding: 1rem;
@@ -112,6 +119,27 @@ footer {
     width: 60px;
     height: 60px;
   }
+}
+
+.output-disclaimer {
+  font-size: 0.9rem;
+  color: #888;
+  margin-top: 1.5rem;
+  max-width: 80%;
+}
+
+.community-section {
+  text-align: center;
+  max-width: 700px;
+  margin: 4rem auto 2rem auto;
+  padding: 1rem;
+  color: #b0b0b0;
+}
+
+.community-section h2 {
+  color: #f3f3f3;
+  font-size: 1.8rem;
+  margin-bottom: 1rem;
 }
 
 /* --- Small Prototype Page Styles --- */
